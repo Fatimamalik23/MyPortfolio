@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    body{
+
+    background:rgb(205, 215, 205);
+}
+
+.header{
+    width:96%;
+    padding: 10px ;
+    background: transparent;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+    font-size: 25px;
+    font-style: normal;
+    color: rgb(88, 114, 87);
+    text-decoration: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgb(51, 54, 51); 
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ecf0f1; 
+    padding: 15px 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li.active > a {
+    background-color: rgb(88, 114, 87); 
+}
+
+.home{
+   position:relative; 
+   width:100%;
+   height: 100vh;
+   background: url(img.jpg);
+   background-size: cover;
+   align-items : center;
+   padding: 30px 100px;
+}
+.content{
+    max-width: 100px;
+    color: rgb(92, 43, 43);
+}
+.content h2{
+    font-size: 4cm;
+}
+.content h1 span{
+    color: rgb(77, 34, 117);
+}
+.project-box {
+    background: #fff;
+    margin: 1.5em 0; 
+    padding: 1.5em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+
+h5 {
+    text-align: center; 
+    margin: 2em 0; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+footer{
+    text-align: center;
+}
+
+/* CV Section Styling */
+.cv-section {
+    padding: 60px 0;
+}
+
+.cv-container {
+    display: flex;
+    flex-direction: column; /* Stack the iframe and button vertically */
+    align-items: center;    /* Horizontally center the content */
+    justify-content: center; /* Vertically center the content */
+    text-align: center; /* Ensure everything is centered */
+    margin: 0 auto;
+}
+
+.cv-container iframe {
+    margin-bottom: 20px;
+}
+
+.download-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-section {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1em;
+    text-align: left; 
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.submit-btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #0056b3;
+}
